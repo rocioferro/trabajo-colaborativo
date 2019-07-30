@@ -1,3 +1,9 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .head {
     background: #fc0;
     height: 100px;
@@ -13,5 +19,4 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -60%) rotate(90deg);
-    
   }
